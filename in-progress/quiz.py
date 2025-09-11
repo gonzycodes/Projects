@@ -15,24 +15,17 @@ questions = {
 score = 0
 
 while True:
-<<<<<<< HEAD
-    questions, answer = random.choice(list(questions.items()))
-=======
     question, answer = random.choice(list(questions.items()))
->>>>>>> 43e0b30 (Completed the cli quiz)
-    print(questions)
+    print(question)
     user_input = input("> ")
 
-    if user_input.lower() == "exit: ":
-     break
+    if user_input.strip().lower() == "exit":
+        break
 
-<<<<<<< HEAD
-    if
-=======
     if user_input.strip() == answer:
-       print("Correct!")
-       score +=1
+        print("Correct!")
+        score += 1
     else:
-       print(f"Wrong! The correct answer is: {answer}\n")
-print (f"Final score: {score}")
->>>>>>> 43e0b30 (Completed the cli quiz)
+        print(f"Wrong! The correct answer is: {answer}\n")
+
+print(f"Final score: {score}")
