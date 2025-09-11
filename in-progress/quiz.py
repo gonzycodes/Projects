@@ -13,7 +13,7 @@ questions = {
 }
 
 score = 0
-
+remaining_questions = list(questions.keys())
 while True:
     question, answer = random.choice(list(questions.items()))
     print(question)
