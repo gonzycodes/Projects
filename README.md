@@ -1,3 +1,3 @@
-# works-in-progress
+# Projects
 
-Here are all my projects that im 'currently' working on. (Could also be projects that ive forgotten about :P)
+All my current projects completed and currently in progress (could also be something ive forgotten about)
