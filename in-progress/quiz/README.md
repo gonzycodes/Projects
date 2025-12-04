@@ -1,0 +1,1 @@
+A learning tool that could be used for learning CLI commands
