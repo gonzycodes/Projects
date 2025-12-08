@@ -16,7 +16,7 @@ def menu_input() -> int:
         
 def lenght() -> int:
     while True:
-        pwd_lenght = input('How long do you want your password to be?: ')
+        pwd_lenght = input('How long do you want your password to be?(1-20): ')
         try:
             num_lenght = int(pwd_lenght)
         except:
