@@ -2,7 +2,7 @@
 
 def menu_input() -> int:
     while True:
-        answer = input('Choose an alternative: ')
+        answer = input('Choose an alternative(1/2) 1 = Continue. 2 = Exit: ')
         try:
             num_answer = int(answer)
         except:
